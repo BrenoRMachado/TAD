@@ -1,0 +1,25 @@
+|| -------------------------------------------------------------------------------- ||
+
+    1 - Simples 
+
+    Formado por objetos atômicos.
+
+        A - Primitivo
+        Embutidos na linguagem.
+
+        B - Definido
+        Através da Enumeração ou da Restrição.
+
+    2 - Estruturado 
+
+    Formado por objetos construídos por componentes .
+
+        A - Homogêneo
+        Componentes pertencem ao mesmo domínio. 
+        Mecanismos = Array, String e Ponteiro.
+
+        B - Heterogêneo
+        Componentes não necessariamente são do mesmo domínio.
+
+
+|| -------------------------------------------------------------------------------- ||

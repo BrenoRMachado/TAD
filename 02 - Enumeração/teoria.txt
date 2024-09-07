@@ -1,0 +1,23 @@
+|| -------------------------------------------------------------------------------- ||
+
+    Maneira de agrupar um conjunto de constantes inteiras que especificam valores 
+    que uma variável desse "tipo" pode ter.
+
+    - O nome do enum se torna um "tipo";
+
+    - Cada valor está associado a um inteiro de forma organizada;
+
+    - Faz parte de um domínio simples, mas que foi definido.
+
+
+    (Estrutura)
+
+    enum nome {lista de valores};
+
+    (Associação de inteiros)
+
+    enum diasDaSemana = { DOM, SEG ,TER , QUAR = 100 , QUI , SEX , SAB}
+    
+    Estão associados a: 0, 1, 2, 100, 101, 102, 103
+
+|| -------------------------------------------------------------------------------- ||

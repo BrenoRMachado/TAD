@@ -1,0 +1,27 @@
+|| -------------------------------------------------------------------------------- ||
+
+    1 - Domínio de dados
+
+    São conjuntos de valores permitidos para uma variável assumir.
+    Ex:
+        Variáveis do tipo INT tem como domínio o conjunto dos números inteiros.
+
+    2 - Tipos de Dados 
+
+    São "categorias" em que uma variável deve pertencer.
+    Confere às variáveis um domínio de dados e operações aplicáveis aos objetos do
+    domínio.
+
+    3 - Objetos 
+
+    Os objetos abordados anteriormente são as instancias de um tipo. Ou seja, a 
+    região da memória que possui um tipo associado.
+
+    4 - Mecanismos 
+
+    É  a forma que o domínio é estabelecido na linguagem.
+    Ex: 
+        O mecanismo do domínio simples primitivo são tipos de dados embutidos na
+        linguegem.
+
+|| -------------------------------------------------------------------------------- ||
