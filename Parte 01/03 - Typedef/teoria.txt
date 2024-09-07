@@ -1,0 +1,11 @@
+|| -------------------------------------------------------------------------------- ||
+
+    Forma alternativa para a declaração de variáveis;
+    Utiliza o conceito de apelidos;
+    Auxilia na legibilidade e na modificabilidade do código;
+
+    Reduz o tamanho do programa, uma vez que estruturas complicadas são escritas 
+    uma única vez.
+    
+
+|| -------------------------------------------------------------------------------- ||
