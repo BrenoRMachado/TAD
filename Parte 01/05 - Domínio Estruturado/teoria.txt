@@ -1,0 +1,26 @@
+|| ------------------------------------------------------------------------------- || 
+
+    Possui 2 principais mecanismos envolvidos:
+
+    1 - Definição
+    Identifica os compinentes e como eles são organizados;
+
+    2 - Funções de Transferência
+
+        A - Construtora 
+        Cria um objeto estruturado a partir dos componentes.
+
+        B - Seletora 
+        Extrai componentes de um objeto estruturado;
+        Podem ser métodos que retornam o valor de um componente específico.
+
+
+    (mecanismos de construção)
+
+    Cumprem a função de construção.
+
+    Homogêneos = Arrays, Strings e Ponteiros
+
+    Heterogêneos = Structs e Class
+
+|| ------------------------------------------------------------------------------- || 
