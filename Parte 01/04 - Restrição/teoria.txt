@@ -1,0 +1,28 @@
+|| -------------------------------------------------------------------------------- ||
+
+    Permite criar subdomínios restringindo tipos primitivos;
+    Não é possivel fazer isso de forma genérica.
+
+    Genérica?
+
+    A forma genérica seria um mecanismo ou funcionalidade embutida na linguagem que 
+    permitisse definir tipos de dados com restrições de maneira padronizavel e 
+    reutilizável.
+
+    Utiliza-se de modificadores de tipos:
+
+    1 - Short
+    É utilizado para economizar memória, pois ele ocupa menos espaço em comparação
+    com o int tradicional. Normalmente, o short ocupa 2 bytes (16 bits), enquanto o 
+    int ocupa 4 bytes (32 bits). Essa economia de memória pode ser útil em situações 
+    onde se manipulam grandes quantidades de dados e os valores numéricos estão 
+    dentro do intervalo suportado pelo short 
+    (geralmente entre -32.768 e 32.767 para o signed short).
+
+    2 - Unsigned e signed 
+    Ajustam a forma como são armazenados os valores.
+
+    signed int representa negativos e positivos;
+    unsigned int representa somente os positivos, mas um intervalo maior de números.
+
+|| -------------------------------------------------------------------------------- ||
