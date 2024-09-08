@@ -1,0 +1,25 @@
+|| ------------------------------------------------------------------------------- ||
+
+    1 - Invisibilidade
+
+    É a capacidade de ocultar detalhes no código;
+    Garante que a interação seja com e apenas as aplicações;
+    Não vemos a implementação;
+    Foco do que deve ser feito, não em como.
+
+    2 - Proteção
+
+    Processo de limitar o acesso de partes do código para evitar erros e manter
+    a consistência dos dados.
+    Impede manipulações indevídas.
+
+    Usuário manipula informações de forma controlada através de métodos.
+
+    3 - Encapsulamento 
+
+    Capacidade de agrupar dados e métodos dentro de uma só unidade;
+    Define quais operações são permitidas e quais dados podem ser manipulados.
+
+
+
+|| ------------------------------------------------------------------------------- ||
