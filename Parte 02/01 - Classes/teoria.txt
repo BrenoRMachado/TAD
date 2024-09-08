@@ -1,0 +1,38 @@
+|| ------------------------------------------------------------------------------- ||
+
+    Garante o benefício da invisibilidade e possui o suporte para o 
+    encapsulamento e proteção.
+
+    É uma forma especial para a definição de domínios.
+
+|| ------------------------------------------------------------------------------- ||
+
+
+
+|| ------------------------------------------------------------------------------- ||
+
+    class nomeDaClasse 
+    {
+        ...
+    };
+
+
+    O seu corpo é composto por atributos e métodos.
+    atributos = variáveis = domínio
+    métodos = funções = operações 
+
+|| ------------------------------------------------------------------------------- ||
+
+
+
+|| ------------------------------------------------------------------------------- ||
+
+    Categorias de permissão
+
+    (private)
+    Só podem ser acessados por membros da propria classe 
+
+    (public)
+    Podem ser acessados por qualquer um
+    
+|| ------------------------------------------------------------------------------- ||
