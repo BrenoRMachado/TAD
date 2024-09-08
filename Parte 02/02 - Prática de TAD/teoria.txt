@@ -1,0 +1,22 @@
+|| ------------------------------------------------------------------------------- ||
+
+    1 - Criamos uma classe em um arquivo .h
+    2 - Implementamos seus métodos em um arquivo .cpp
+        Nele usamos :: para referenciar a classe
+
+        - Os métodos (funções membro) pdoem ser Implementados dentro ou fora 
+        da classe;
+        - Nesse curso implementamos fora 
+
+        nomeDaClasse :: nomeDaFuncao ()
+        {
+
+        } 
+
+    3 - Conectamos o arquivo .h e o .cpp em um arquivo main.cpp
+
+    Assim é criado um TAD;
+    Podemos usar um TAD como atributo de outro TAD
+        
+
+|| ------------------------------------------------------------------------------- ||
