@@ -1,0 +1,13 @@
+|| ------------------------------------------------------------------------------- ||
+
+    Após a definição e a implementação de uma classe: 
+
+    1 - Criamos objetos da mesma forma que qualquer outra variável.
+
+    2 - Quando criamos um obejto de uma classe, usamos o . para acessar seus 
+    membros.
+
+    3 - Quando se tem um ponteiro para um objeto, usamos -> para acessar seus 
+    membros.
+
+|| ------------------------------------------------------------------------------- ||
