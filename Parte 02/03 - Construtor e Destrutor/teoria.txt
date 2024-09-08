@@ -1,0 +1,36 @@
+|| ------------------------------------------------------------------------------- ||
+
+    Construtor
+
+        método especial. Chamado quando um novo objeto é criado.
+        - Mesmo nome da classe 
+        - Sem valor de retorno
+
+        Podem ser definidos vários construtores ao mesmo tempo.
+        Podem ser:
+            - com parametros
+            - sem parametros
+            - com diferentes listas de parâmetros* 
+
+        * = Não se pode fazer 2 construtores com o mesmo protótipo*
+        * = Protótipo é a assinatura do construtor
+            seu nome + tipos e quantidade dos parametros
+        
+        Em cosntrutores, se são da mesma classe, a única diferença entre eles está
+        no tipo de seus parâmetros ou na quantidade deles
+
+
+
+    Destrutor
+        método especial. Chamado quando um objeto vai ser apagado da memória.
+        - ~ + nome da classe 
+        - Sem valor de retorno
+        - Não pode ter parametros
+        
+        Quando não especificado, a linguagem define um padrão de forma implicita. 
+        Se um construtor alocar espaço na memória de forma dinâmica, desalocar é 
+        feito no destrutor.
+
+        
+
+|| ------------------------------------------------------------------------------- ||
