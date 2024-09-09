@@ -1,5 +1,5 @@
 #include <iostream>
-#include <aluno.h>
+#include "aluno.h"
 using namespace std;
 
 
@@ -22,3 +22,9 @@ int main ()
 
     return 0;
 }
+
+//dicas: include com " "
+// achar o caminho com botão esquerdo copy path
+// cd "caminho"
+//para compilar: g++ main.cpp aluno.cpp -o output.exe
+//para executar: .\output.exe

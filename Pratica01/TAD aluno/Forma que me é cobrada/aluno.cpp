@@ -1,5 +1,5 @@
 #include <iostream>
-#include <aluno.h>
+#include "aluno.h"
 using namespace std;
 
 void Aluno :: definirAluno()
