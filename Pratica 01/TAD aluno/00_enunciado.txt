@@ -1,0 +1,12 @@
+TAD aluno com os seguintes atributos
+- matricula
+- idade
+- nota
+
+Operações:
+
+- Definir aluno (leitura de dados do aluno)
+- Imprimir aluno (impressão dos dados do aluno)
+- Foi aprovado? (verifica se o aluno foi aprovado)
+
+
