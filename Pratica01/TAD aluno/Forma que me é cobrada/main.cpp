@@ -9,6 +9,7 @@ int main ()
 
     breno.definirAluno();
     breno.imprimirAluno();
+    breno.calcularMedia();
     
     if (breno.foiAprovado())
     {
