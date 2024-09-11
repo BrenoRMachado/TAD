@@ -5,11 +5,15 @@ using namespace std;
 
 int main ()
 {
-    Aluno breno;
+    int numNotas = 0;
+    cout << "Escreva o numero de notas: ";
+    cin >> numNotas;
+
+    Aluno breno(numNotas);
 
     breno.definirAluno();
     breno.imprimirAluno();
-    breno.calcularMedia();
+    cout << "A media do aluno eh: " << breno.calcularMedia() <<endl;
     
     if (breno.foiAprovado())
     {
