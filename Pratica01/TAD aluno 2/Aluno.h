@@ -14,6 +14,12 @@ class Aluno
         string getNome();
         void setNome(string n);
 
+        int getIdade();
+        string getMatricula();
+
+        int setIdade(int i);
+        int setMatricula(string mat);
+
         void leNotas();
         double calculaMedia();
 

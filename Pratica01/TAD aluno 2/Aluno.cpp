@@ -21,6 +21,30 @@ void Aluno :: setNome(string n)
     nome = n;
 }
 
+int Aluno :: getIdade()
+{
+    return idade;
+}
+
+string Aluno :: getMatricula()
+{
+    return matricula;
+}
+
+int Aluno :: setIdade(int i)
+{
+    idade = i;
+}
+
+int Aluno :: setMatricula(string mat)
+{
+    matricula = mat;
+}
+
+
+
+
+
 void Aluno :: leNotas()
 {
     cout << "Digite as 7 notas do aluno: " <<endl;
