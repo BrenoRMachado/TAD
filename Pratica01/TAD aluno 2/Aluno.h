@@ -11,6 +11,8 @@ class Aluno
         Aluno(string n, string mat);
         ~Aluno();
 
+        string getNome();
+        void setNome(string n);
 
         void leNotas();
         double calculaMedia();

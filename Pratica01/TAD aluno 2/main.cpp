@@ -11,6 +11,8 @@ int main ()
     breno.leNotas();
     cout << breno.calculaMedia(); 
 
+    breno.getNome();
+    breno.setNome(n);
 
     return 0;
 }

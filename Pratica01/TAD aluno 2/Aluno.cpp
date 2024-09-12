@@ -11,6 +11,16 @@ Aluno :: Aluno(string n, string mat)
 Aluno :: ~Aluno()
 {}
 
+string Aluno :: getNome()
+{
+    return nome;
+}
+
+void Aluno :: setNome(string n)
+{
+    nome = n;
+}
+
 void Aluno :: leNotas()
 {
     cout << "Digite as 7 notas do aluno: " <<endl;
