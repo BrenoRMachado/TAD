@@ -14,6 +14,7 @@ int main ()
     //
     // (variáveis 2)
     int age = 0;
+    int vet[3];
     //
     // ------------------------------------------------------------------------------
 
@@ -43,13 +44,11 @@ int main ()
     cout << "Digite as notas do aluno: " <<endl; 
     breno.leNotas();
 
+    breno.leFrequencia();
+
     // (impressão)
 
-    cout << "As informacoes do aluno sao: " <<endl;
-    cout << "Nome: " << breno.getNome() <<endl;
-    cout << "Matricula: "<< breno.getMatricula() <<endl;
-    cout << "Idade: " << breno.getIdade() <<endl;
-    cout << "Media: " << breno.calculaMedia() <<endl;
+    breno.relatorio();
 
 
     

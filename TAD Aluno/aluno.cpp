@@ -83,27 +83,61 @@ void Aluno :: leFrequencia()
 {
     for ( int i = 0 ; i < 3 ; i++)
     {
-        bool valorValido = true;
-        while(valorValido)
+        bool valorValido = false;
+        while(!valorValido)
         {
+            int ref;
             cout << "frequencia " << i+1 << " : ";
-            cin >> freq[i];
-            if(freq[i] == 1)
+            cin >> ref;
+            if(ref == 1)
             {
                 freq[i] = true;
+                valorValido = true;
             }
-            else if (freq[i] = 0)
+            else if (ref == 0)
             {
                 freq[i] = false;
+                valorValido = true;
             }
             else 
             {
                 cout << "Valor inválido, digite novamente." <<endl;
-                valorValido = false;
+                
             }
         }
         
     }
+}
+
+// (imprimir um relatorio)
+
+void Aluno :: relatorio()
+{
+    cout << "O nome do aluno eh: " << nome<<endl;
+    cout << "A idade do aluno eh: " << idade<<endl;
+    cout << "A matricula do aluno eh: " << matricula<<endl;
+    for(int i = 0 ; i < 3 ; i++)
+    {
+        cout << "Na disciplina " << i+1 << " o aluno ";
+        if(freq[i] == true)
+        {
+            cout << "foi frequente ";
+        }
+        else
+        {
+            cout << "nao foi frequente ";
+        }
+        if(notas[i] >= 60 )
+        {
+            cout << "e foi aprovado.";
+        }
+        else
+        {
+            cout << "e nao foi aprovado.";
+        }
+        cout <<endl;
+    }
+
 }
 
 // ----------------------------------------------------------------------------------

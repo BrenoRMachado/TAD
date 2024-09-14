@@ -24,6 +24,8 @@ class Aluno
 
     // Getters e Setters -------------------------------------------------------------
 
+
+
     // (Nome) 
     string getNome();
     void setNome(string n);
@@ -41,5 +43,6 @@ class Aluno
     double calculaMedia();
     // (segunda etapa)
     void leFrequencia();
+    void relatorio();
     // -------------------------------------------------------------------------------
 };
