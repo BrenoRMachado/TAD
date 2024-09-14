@@ -9,6 +9,8 @@ class Aluno
     string nome, matricula;
     int idade;
     double notas[3];
+    // (segunda etapa)
+    bool freq[3];
     
     public:
     //tudo que está aqui pode ser acessado por um arquivo com o include aluno.h
@@ -37,5 +39,7 @@ class Aluno
     // métodos -----------------------------------------------------------------------
     void leNotas();
     double calculaMedia();
+    // (segunda etapa)
+    void leFrequencia();
     // -------------------------------------------------------------------------------
 };

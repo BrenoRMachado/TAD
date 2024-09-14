@@ -55,7 +55,7 @@ void Aluno :: setIdade(int age)
 
 // métodos --------------------------------------------------------------------------
 
-// (ler notas)d
+// (ler notas)
 void Aluno :: leNotas()
 {
     for (int i = 0 ; i < 3 ; i++)
@@ -76,5 +76,34 @@ double Aluno :: calculaMedia()
     return soma/3;
 }
 
+// (segunda etapa)
+// (ler a frequencia)
+
+void Aluno :: leFrequencia()
+{
+    for ( int i = 0 ; i < 3 ; i++)
+    {
+        bool valorValido = true;
+        while(valorValido)
+        {
+            cout << "frequencia " << i+1 << " : ";
+            cin >> freq[i];
+            if(freq[i] == 1)
+            {
+                freq[i] = true;
+            }
+            else if (freq[i] = 0)
+            {
+                freq[i] = false;
+            }
+            else 
+            {
+                cout << "Valor inválido, digite novamente." <<endl;
+                valorValido = false;
+            }
+        }
+        
+    }
+}
 
 // ----------------------------------------------------------------------------------
