@@ -37,8 +37,6 @@ void Prova :: calculaNota()
             menor = notasDasQuestoes[i];
         }
     }
-    //
-    cout << "A nota final eh: ";
     
     for ( int i = 0 ; i<n ; i++)
     {

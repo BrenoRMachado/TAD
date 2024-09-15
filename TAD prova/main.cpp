@@ -6,6 +6,9 @@ int main ()
 {
     int numero; // vai servir de equivalente a numero de questões aqui no main
 
+    cout << "Quantas questões tem a prova? "<<endl;
+    cin >> numero;
+
     Prova prova1(numero); //Precisa de parenteses por que o construtor possui parâmetros
 
     cout << "Digite as notas do aluno: \n";
