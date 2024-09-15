@@ -1,0 +1,17 @@
+TAD vai representar uma prova
+    - numero de questões n 
+    - vetor com n valores rais que representa a nota de cada questão (alocado dinâmicamente no construtor)
+    - numeron real que armazena a nota final
+
+    operações
+    
+    -construtor = recebe n como parametro e aloca o vetor
+    -destrutor = libera memória do vetor 
+    
+    - ler as notas de cada questão 
+    - calcular a nota final
+    - obter a nota final 
+
+    nota final 
+
+    - soma a nota de cada questão, sem considerar a menor delas
