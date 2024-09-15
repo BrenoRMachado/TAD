@@ -1,0 +1,7 @@
+class Prova
+{
+    private:
+
+    public:
+    
+};
